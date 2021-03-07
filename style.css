@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+
+/* * start */
+body{
+    overflow-x:hidden ;
+    font-family: 'Ubuntu', serif;
+    color: #505962; 
+}
+.fixed-top  {
+    -webkit-backface-visibility: hidden;
+    opacity: 0.5;
+}
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: table;
+    z-index: -1;
+}
+.home-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* * End */
+/* Main Start */
+.home-inner {
+    background-image: url(img/bg1comp.jpg);
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+}
+.main-definition{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    color: black;
+    letter-spacing: .3rem;
+}
+.main-definition h1{
+    color: rgb( 5, 154, 229);
+    font-size: 4rem;
+    padding-bottom: 20rem;
+}
+.main-definition p{
+    color: #fff;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px black;
+}
+/* Main End */
+/* Who We Are Start */
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    color: rgb( 244, 246, 247 );
+    text-transform: uppercase;
+}
+.WhWeAre h4{
+    color: #666666;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+.WhWeAre h1{
+    color: rgb( 5, 154, 229);
+    font-size: 3rem;
+    font-weight: 400;
+    padding-bottom: 4rem;
+}
+.WhWeAre p{
+    color: #666666;
+}
+.WhWeAre a{
+    border-radius: 4rem;
+    background-color:rgb( 5, 154, 229);
+    border-color: rgb( 5, 154, 229);
+}
+.fixedBgImage {
+    background-image: url(img/bg2comp.jpg);
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+/* Who We Are End */
+/* Career Start */
+.careerText{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 27%;
+  
+    z-index: 1;
+    color: black;
+}
+.careerText h4{
+    color: #666666;
+    font-size: 2.3rem;
+}
+.careerText h2{
+    color: rgb( 5, 154, 229);
+    font-size: 4.2rem;
+}
+.careerText p{
+    color: #666666;
+    font-size: 1.5rem;
+}
+.careerText a{
+    border-radius: 4rem;
+    background-color:rgb( 5, 154, 229);
+    border-color: rgb( 5, 154, 229);
+}
+.careerImg{
+    background-image: url(img/bg3comp.jpg);
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+}
+/* Career End */
+/* Promo Start */
+.fixed-background {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.painful{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider{
+    height: 450px;
+    width: 800px;
+}
+.imgborder{
+    border: 5px solid rgba( 230, 236, 240 ,.7);
+    border-radius: .4em;
+    object-fit: cover;
+}
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999!important;
+}
+.PromoImg{
+    background-image: url(img/bg4comp.jpg);
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+}
+.color-layer{
+    background-color: rgba(0, 153, 255,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Promo End */
+/* contact start */
+.contactTxt{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    z-index: 1;
+    color: black;
+    height: 5vh;
+}
+.contactTxt h4{
+    color: #666666;
+    font-size: 1.5rem;
+    height: 5vh;
+}
+.contactTxt h2{
+    color: rgb( 5, 154, 229);
+    font-size: 3.4rem;
+}
+.contactTxt p{
+    color: #666666;
+    font-size: 1.2rem;
+}
+.contactTxt button{
+    border-radius: 4rem;
+    background-color:rgb( 5, 154, 229);
+    border-color: rgb( 5, 154, 229);
+    color: #fff;
+    border-style: solid;
+    padding: .4rem 3.4rem ;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.contactTxt input{
+    margin-bottom: 1rem;
+    border-radius: .4rem;
+    border-style: none;
+    background-color: #D5D5D5;
+}
+.contactTxt textarea{
+    margin-bottom: 1rem;
+    border-radius: .4rem;
+    border-style: none;
+    background-color: #D5D5D5;
+}
+.contactImg{
+    background-image: url(img/bg5rem.jpg);
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+}
+/* contact end */
+/* Footer Start */
+.footer{
+    background-color: #F9F9F9;
+}
+.faFonSize{
+    font-size: 2em;
+}
+.linksy li{
+    list-style: none;
+}
+.linksy li a{
+    color: #666666;
+    font-size: 1.4em;
+}
+.linksy li a:hover{
+    color: #909090 ;
+    font-size: 1.4em;
+}
+/* Footer End */
